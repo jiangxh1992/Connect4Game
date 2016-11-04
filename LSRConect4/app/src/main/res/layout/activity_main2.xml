@@ -12,14 +12,15 @@
         android:layout_weight="1">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:id="@+id/red"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:background="@drawable/red_t"
             android:layout_alignParentStart="true" />
         <TextView
+            android:id="@+id/tip"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textAlignment="center"
@@ -29,8 +30,8 @@
         </TextView>
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:id="@+id/green"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
@@ -54,7 +55,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -62,7 +63,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -70,7 +71,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -78,7 +79,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -86,7 +87,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -94,7 +95,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -102,7 +103,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
@@ -116,7 +117,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -124,7 +125,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -132,7 +133,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -140,7 +141,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -148,7 +149,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -156,7 +157,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -164,7 +165,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
@@ -178,7 +179,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -186,7 +187,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -194,7 +195,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -202,7 +203,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -210,7 +211,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -218,7 +219,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -226,7 +227,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
@@ -240,7 +241,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -248,7 +249,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -256,7 +257,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -264,7 +265,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -272,7 +273,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -280,7 +281,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -288,7 +289,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
@@ -302,7 +303,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -310,7 +311,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -318,7 +319,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -326,7 +327,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -334,7 +335,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -342,7 +343,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -350,7 +351,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
@@ -364,7 +365,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -372,7 +373,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -380,7 +381,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -388,7 +389,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -396,7 +397,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -404,7 +405,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
             <ImageButton
@@ -412,7 +413,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/empty_t"
+                android:src="@drawable/empty_t"
                 android:layout_margin="5dp">
             </ImageButton>
         </TableRow>
