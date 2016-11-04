@@ -9,7 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="#8eefc2">
 
         <ImageView
             android:layout_width="40dp"
@@ -44,7 +45,7 @@
         android:layout_height="1dp"
         android:layout_weight="5"
         android:id="@+id/table"
-        android:background="#64d7cf">
+        android:background="#d5d6d6">
 
         <TableRow
             android:layout_width="match_parent"
@@ -56,7 +57,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn1"
@@ -64,7 +65,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn2"
@@ -72,7 +73,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn3"
@@ -80,7 +81,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn4"
@@ -88,7 +89,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn5"
@@ -96,7 +97,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn6"
@@ -104,7 +105,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -118,7 +119,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn8"
@@ -126,7 +127,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn9"
@@ -134,7 +135,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn10"
@@ -142,7 +143,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn11"
@@ -150,7 +151,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn12"
@@ -158,7 +159,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn13"
@@ -166,7 +167,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -180,7 +181,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn15"
@@ -188,7 +189,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn16"
@@ -196,23 +197,25 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn17"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn18"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn19"
@@ -220,7 +223,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn20"
@@ -228,7 +231,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -242,7 +245,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn22"
@@ -250,7 +253,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn23"
@@ -258,23 +261,25 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn24"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn25"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn26"
@@ -282,7 +287,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn27"
@@ -290,7 +295,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -304,7 +309,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn29"
@@ -312,7 +317,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn30"
@@ -320,7 +325,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn31"
@@ -328,23 +333,25 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn32"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn33"
                 android:layout_height="match_parent"
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn34"
@@ -352,7 +359,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -366,7 +373,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn36"
@@ -374,7 +381,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn37"
@@ -382,7 +389,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn38"
@@ -390,7 +397,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn39"
@@ -398,7 +405,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn40"
@@ -406,7 +413,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
             <ImageButton
                 android:id="@+id/btn41"
@@ -414,7 +421,7 @@
                 android:layout_width="1dp"
                 android:layout_weight="1"
                 android:src="@drawable/empty_t"
-                android:layout_margin="5dp">
+                android:layout_margin="2dp">
             </ImageButton>
         </TableRow>
 
@@ -430,12 +437,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="RESTART"
+            android:textColor="#fff"
+            android:background="#2f873c"
             android:id="@+id/restart" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="BACK"
+            android:textColor="#fff"
+            android:background="#9566e7"
             android:id="@+id/retarct" />
     </LinearLayout>
 </LinearLayout>

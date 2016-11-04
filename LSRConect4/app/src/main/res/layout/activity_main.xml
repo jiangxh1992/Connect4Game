@@ -11,10 +11,12 @@
     tools:context="com.example.lsr.lsrconect4.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="START GAME"
+        android:textColor="#fff"
         android:id="@+id/start"
+        android:background="#4de7e7"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
